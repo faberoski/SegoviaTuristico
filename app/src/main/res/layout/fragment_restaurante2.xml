@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="faberm.segoviaturistico.restaurante2Fragment">
+
+    <LinearLayout style="@style/LinearLayoutStyle"
+        android:background="@drawable/fondo">
+        <TextView style="@style/textViewStyle.Title"
+            android:text="Chocolos"
+            android:textColor="@color/white"
+            >
+        </TextView>
+        <ImageView style="@style/imageViewStyle"
+            android:src="@drawable/hongkong">
+        </ImageView>
+        <TextView style="@style/textViewStyle.Content"></TextView>
+        <TextView style="@style/textViewStyle.Content"
+            android:text="Restaurante hongkong
+Domicilios: 4062475-3014428643">
+        </TextView>
+        <TextView style="@style/textViewStyle.Content"></TextView>
+        <TextView style="@style/textViewStyle.Content"
+            android:text="Calle 17 # 17-09 Segovia
++57 310 7331966">
+        </TextView>
+
+    </LinearLayout>
+
+</FrameLayout>

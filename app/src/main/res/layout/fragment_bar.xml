@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="faberm.segoviaturistico.barFragment">
+
+    <LinearLayout style="@style/LinearLayoutStyle"
+        android:background="@drawable/fondo">
+        <TextView style="@style/textViewStyle.Title"
+            android:text="BAR MUNICIPAL"
+            android:textColor="@color/white"
+            >
+        </TextView>
+        <ImageView style="@style/imageViewStyle"
+            android:src="@drawable/municipal">
+        </ImageView>
+        <TextView style="@style/textViewStyle.Content"></TextView>
+        <TextView style="@style/textViewStyle.Content"
+            android:text="Nuevo concepto de la vida nocturna en Segovia - Antioquia
+RUMBA 100% ELECTRONICA">
+        </TextView>
+        <TextView style="@style/textViewStyle.Content"></TextView>
+        <TextView style="@style/textViewStyle.Content"
+            android:text="Carrera 12 No 12 12 5220021 Segovia
+ Info = +57 310 52200212">
+        </TextView>
+
+    </LinearLayout>
+
+</FrameLayout>

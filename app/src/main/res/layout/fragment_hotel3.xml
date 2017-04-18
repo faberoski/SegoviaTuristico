@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="faberm.segoviaturistico.hotel3Fragment">
+
+    <LinearLayout style="@style/LinearLayoutStyle"
+        android:background="@drawable/fondo">
+        <TextView style="@style/textViewStyle.Title"
+            android:text="Hotel Cabana"
+            android:textColor="@color/white"
+            >
+        </TextView>
+        <ImageView style="@style/imageViewStyle"
+            android:src="@drawable/cabana">
+        </ImageView>
+        <TextView style="@style/textViewStyle.Content"></TextView>
+
+
+        <TextView style="@style/textViewStyle.Content"
+            android:text="Lujoso hotel de 5 estrellas
+ubicado a 15 minutos del parque de Segovia
+Reservas:
+www.cabana.com
+3006172206">
+        </TextView>
+    </LinearLayout>
+
+</FrameLayout>

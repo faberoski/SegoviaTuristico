@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Segovia</string>
+    <string name="titulo">Segovia</string>
+    <string name="username">Usuario</string>
+    <string name="password">Clave</string>
+    <string name="confirmpassword">Confirmar Clave</string>
+    <string name="iniciarSes">Entrar</string>
+    <string name="registrarse">Registro</string>
+    <string name="cancel">Cancelar</string>
+    <string name="miPerfil">Mi Perfil</string>
+    <string name="cerrarSesion">Cerrar Sesion</string>
+    <string name="principal">Principal</string>
+    <string name="email">Correo</string>
+    <string name="acerca">Segovia es un municipio de Colombia, situado en la subregión nordeste del departamento de Antioquia. Limita por el norte con los municipios de Zaragoza y El Bagre, por el este con el departamento de Bolívar, por el sur con el municipio de Remedios, y por el oeste con los municipios de Amalfi y Anorí.</string>
+    <string name="mRestaurantes">Restaurantes</string>
+    <string name="mHoteles">Hoteles</string>
+    <string name="mBares">Bares</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tab">Segovia</string>
+    <string name="action_settings">configuracion</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="hotel1">Hotel 1</string>
+    <string name="hotel2">Hotel 2</string>
+    <string name="hotel3">Hotel 3</string>
+    <string name="restaurant1">Restaurante 1</string>
+    <string name="restaurant2">Restaurante 2</string>
+    <string name="restaurant3">Restaurante 3</string>
+    <string name="bar1">Bar 1</string>
+    <string name="bar2">Bar 2</string>
+    <string name="bar3">Bar 3</string>
+    <string name="hotel_title">Hoteles</string>
+    <string name="restaurant_title">Restaurantes</string>
+    <string name="tour_title">Bares</string>
+    <string name="title_activity_navigation_drawer">Segovia</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_perfil_drawer">Mi perfil</string>
+    <string name="title_activity_tab_drawer">Segovia</string>
+    <string name="title_activity_maps">Mapa</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="faberm.segoviaturistico.NavigationDrawerActivity"
+    tools:showIn="@layout/app_bar_navigation_drawer"
+    android:orientation="vertical"
+    android:background="@drawable/fondo">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Es un municipio ubicado en el oriente Antioqueño. Posee una enorme riqueza patrimonial representada en su centro histórico, en buen estado de conservación, así como museos y centros culturales dedicados a difundir y preservar la historia de la ciudad. Actualmente Sonsón emerge como un destino turístico de Antioquia."/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:src="@drawable/eloasis"
+
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="@dimen/activity_vertical_margin"
+
+            android:src="@drawable/parque"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+    </LinearLayout>
+
+</LinearLayout>

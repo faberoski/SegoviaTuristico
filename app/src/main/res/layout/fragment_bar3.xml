@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="faberm.segoviaturistico.bar3Fragment">
+
+    <LinearLayout style="@style/LinearLayoutStyle"
+        android:background="@drawable/fondo">
+        <TextView style="@style/textViewStyle.Title"
+            android:text="CALABAR"
+            android:textColor="@color/white"
+            >
+        </TextView>
+        <ImageView style="@style/imageViewStyle"
+            android:src="@drawable/calabar">
+        </ImageView>
+        <TextView style="@style/textViewStyle.Content"></TextView>
+        <TextView style="@style/textViewStyle.Content"
+            android:text="CALABAR DISCOTECA. Dirección: Zona Rosa Segovia. Teléfono: Reservas: 4178431 / 4486069 / Whatsapp: 3042470807 / 3105054754">
+        </TextView>
+        <TextView style="@style/textViewStyle.Content"></TextView>
+        <TextView style="@style/textViewStyle.Content"
+            android:text="CR 11 CL 15-5 Segovia
+ info : +57 321 6412994">
+        </TextView>
+
+    </LinearLayout>
+
+</FrameLayout>
